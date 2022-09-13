@@ -10,7 +10,7 @@ export let navbar = {
 
 export let header = {
     title: 'titulo',
-    subtittle: 'texto de subtitulo',
+    subtitle: 'texto de subtitulo',
     button: {
         link: '/#',
         label: 'learn more'
@@ -18,12 +18,12 @@ export let header = {
 }
 
 export let cards = [
-    { id: 1, photo: 'http://via.placeholder.com/500x325', title: 'Card title', descriptiom: 'Lorem ipsum dolor sit amet, consectetur', btn: 'boton'},
-    { id: 2, photo: 'http://via.placeholder.com/500x325', title: 'Card title', descriptiom: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod', btn: 'boton'},
-    { id: 3, photo: 'http://via.placeholder.com/500x325', title: 'Card title', descriptiom: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ', btn: 'boton'},
-    { id: 4, photo: 'http://via.placeholder.com/500x325', title: 'Card title', descriptiom: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed ', btn: 'boton'}
+    { id: 1, photo: 'https://picsum.photos/500/325', title: 'Card title 1', description: 'Lorem ipsum dolor sit amet, consectetur', btn: 'boton'},
+    { id: 2, photo: 'https://picsum.photos/500/325', title: 'Card title 2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod', btn: 'boton'},
+    { id: 3, photo: 'https://picsum.photos/500/325', title: 'Card title 3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ', btn: 'boton'},
+    { id: 4, photo: 'https://picsum.photos/500/325', title: 'Card title 4', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed ', btn: 'boton'}
 ]
 
 export let footer = {
-    text: 'Copyright @ 2022'
+    text: 'Copyright @ www.4GeeksBootcampChile.cl - 2022'
 }

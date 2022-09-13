@@ -1,15 +1,16 @@
 import React from "react";
+import Card from "./Card";
 //import PropTypes from 'prop-types';
-import Card from "./Card"
+
 
 
 const Cards = ({ cards }) => {
     return (
-        <div className="row mt-4">
+        <div className="row gx-4 gx-lg-5">
             {cards.map(
-                ({ photo, title, description }, index) => {
+                ({ id, photo, title, description, btn }, index) => {
                     return (
-                        <Card photo={photo} title={title} description={description} />
+                        <Card id={id} photo={photo} title={title} description={description} btn={btn}/>
                     );
                 }
             )}

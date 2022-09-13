@@ -2,14 +2,13 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Body from './components/Body';
 import Footer from './components/Footer';
-//import './style.css'
 
-export function Main({ navbar, body, footer }) { // Destructurin Javascript
+export function Main({ navbar, body, cards, footer }) { // Destructurin Javascript
     return (
         <>
             <Navbar navbar={navbar} />
 
-            <Body body={body} />
+            <Body body={body} cards={cards} />
 
             <Footer footer={footer} />
         </>
