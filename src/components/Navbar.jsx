@@ -1,4 +1,6 @@
 import React from 'react';
+//import Navbar from './Navbar'
+
 //import PropTypes from 'prop-types';
 
 const Navbar = ({ navbar }) => {
@@ -9,19 +11,13 @@ const Navbar = ({ navbar }) => {
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav ms-auto">                        
-                        {
-                            navbar.options.map(({ link, label }, index) => {
-                                return (
-                                    <li className="nav-item" key={index}><a className="nav-link" href={link}>{label}</a></li>
-                                )
-                            })
-                        }
+                        
                     </ul>
                 </div>
             </div>
         </nav>
     )
-}
+//}
 
 /* Navbar.propTypes = {
     navbar: PropTypes.object.isRequired,
