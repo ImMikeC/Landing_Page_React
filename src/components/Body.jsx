@@ -1,9 +1,5 @@
 import React from "react";
-<<<<<<< HEAD
-import PropTypes from 'prop-types';
-=======
 //import ReactPropTypes from "prop-types";
->>>>>>> adb291b (Mas arreglos.)
 import Header from './Header';
 import Cards from "./Cards"
 
@@ -57,14 +53,5 @@ const Body = ({ body }) => {
         )
 }
 
-<<<<<<< HEAD
-Body.header.propTypes ={
-
-    body: PropTypes.object.isRequired
-}; 
-
-export default Body;
-=======
 
 export default Body
->>>>>>> adb291b (Mas arreglos.)
