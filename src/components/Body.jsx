@@ -1,7 +1,6 @@
 import React from 'react';
 //import ReactPropTypes from "prop-types";
-import Header from './Header'
-import Cards from './Cards'
+//
 
 const Body = ({ body }) => {
     return(
