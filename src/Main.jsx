@@ -1,7 +1,8 @@
 import React from 'react';
-/* import Navbar from './components/Navbar.jsx';
-import Body from './components/Body'; */
+import Navbar from './components/Navbar';
+import Body from './components/Body';
 import Footer from './components/Footer';
+import './style.css'
 
 export function Main ({ /* navbar, body , */ footer }) { // Destructurin Javascript
     return(
@@ -11,6 +12,7 @@ export function Main ({ /* navbar, body , */ footer }) { // Destructurin Javascr
         
         <Footer footer = {footer} />
         </>
+
     )
     
 }

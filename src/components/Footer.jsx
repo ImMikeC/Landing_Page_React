@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 
 const Footer = ({ footer }) => {
     return (
@@ -11,8 +11,8 @@ const Footer = ({ footer }) => {
     )
 }
 
-Footer.propTypes = {
+/* Footer.propTypes = {
     footer: PropTypes.object.isRequired
-}
+} */
 
 export default Footer;

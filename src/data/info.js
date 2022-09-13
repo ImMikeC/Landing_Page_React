@@ -25,5 +25,5 @@ export let cards = [
 ]
 
 export let footer = {
-    text: 'Copyright bla bla bla 2022'
+    text: 'Copyright @ 2022'
 }
